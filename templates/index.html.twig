@@ -4,9 +4,60 @@
 {% block stylesheets %}{{ parent() }}
 {% endblock %}
 {% block body %}
-    <div id="div1">
-    test
+<div>
+    <div class="box">
+        <div class="titre" style="background-image: linear-gradient(to right, #00f03d,green);">
+            Maison
+        </div>
+            <div class="contenu">
+                Test test test
+        </div>
     </div>
+    <div class="box">
+        <div class="titre" style="background-image: linear-gradient(to right, #ffee00, #FFAA00);">
+            Sortie
+        </div>
+            <div class="contenu">
+                Test test test
+        </div>
+    </div>
+    <div class="box">
+        <div class="titre" style="background-image: linear-gradient(to right, #ff0000, #970000);">
+            Cours/Travail
+        </div>
+            <div class="contenu">
+                <ol class='simple_with_animation'>
+                <li>c</li>
+                <li>b</li>
+                <li>a</li>
+            </ol>
+        </div>
+    </div>
+    <div class="box">
+        <div class="titre" style="background-image: linear-gradient(to right, #5effff, blue);">
+            Sortie
+        </div>
+        <div class="contenu">
+             <ol class='simple_with_animation'>
+                <li>test</li>
+                <li>testa</li>
+                <li>testb</li>
+            </ol>
+        </div>
+    </div>
+    <div class="box">
+        <div class="titre" style="background-image: linear-gradient(to right, #ae00ff,#5B0092);">
+            Non-classé
+        </div>
+        <div class="contenu">
+            <ol class='simple_with_animation'>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ol>
+        </div>
+    </div>
+</div>
 {% endblock %}
 {% block javascripts %}{{ parent() }}
 {% endblock %}

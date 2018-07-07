@@ -1,0 +1,73 @@
+body.dragging, body.dragging * {
+    cursor: move !important;
+  }
+  
+  .dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+  }
+  
+  ol.example li.placeholder {
+    position: relative;
+    /** More li styles **/
+  }
+  ol.example li.placeholder:before {
+    position: absolute;
+    /** Define arrowhead **/
+  }
+
+
+body
+{
+    font-family: Calibri Light;
+    font-size:20px;
+}
+
+.box
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    padding-right: 20px;
+}
+.titre
+{
+    font-size: 24px;
+    border-bottom: 3px solid #ffffff;
+    font-style: italic;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: white;
+}
+
+.contenu
+{
+    color: white;
+    opacity:0.75;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 300px;
+}
+
+.box:last-child {
+    width: 100%;
+    padding: 0;
+}
+
+.contenu:last-child {
+width: 100%;
+}
+
+.titre:last-child {
+    width: 100%;
+}
+
+
+
+
